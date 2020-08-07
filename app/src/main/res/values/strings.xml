@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Colors</string>
+    <string name="text_view_red">RED</string>
+    <string name="text_view_orange">ORANGE</string>
+    <string name="text_view_yellow">YELLOW</string>
+    <string name="text_view_green">GREEN</string>
+    <string name="text_view_blue">BLUE</string>
+    <string name="text_view_indigo">INDIGO</string>
+    <string name="text_view_violet">VIOLET</string>
+</resources>

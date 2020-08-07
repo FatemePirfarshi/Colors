@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_view_red"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:text="@string/text_view_red"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/txt_view_orange"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#FF9800"
+            android:gravity="center"
+            android:text="@string/text_view_orange"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/txt_view_yellow"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:background="#FAEE11"
+            android:gravity="center"
+            android:text="@string/text_view_yellow"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/txt_view_green"
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:background="#4FF409"
+            android:gravity="center"
+            android:text="@string/text_view_green"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/txt_view_blue"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:background="#425EFB"
+            android:gravity="center"
+            android:text="@string/text_view_blue"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/txt_view_indigo"
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:background="#651291"
+            android:gravity="center"
+            android:text="@string/text_view_indigo"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/txt_view_violet"
+            android:layout_width="match_parent"
+            android:layout_height="193dp"
+            android:background="#EB7EF3"
+            android:gravity="center"
+            android:text="@string/text_view_violet"
+            android:textColor="@android:color/background_dark" />
+
+    </LinearLayout>
+</ScrollView>
